@@ -616,34 +616,32 @@ https://app.hackthebox.com/challenges/toxic
 
 Просмотрим сайт.
 
-![](imgs/owasp/1_site.png)
+![](imgs/owasp/1/1_site.png)
 
-![](imgs/owasp/1_page_source.png)
+![](imgs/owasp/1/1_page_source.png)
 
 Видим, что можно ввести какой-то айпишник и пингануть его. Можно предположить, как устроена эта функция. К команде ping конкатенируется введенная строка (айпи) и затем выполняется команда ping. Так как используется командная строка, то можно попытаться к айпи приписать следующее:
 
     <ip>; ls
 
-![](imgs/owasp/1_ls.png)
+![](imgs/owasp/1/1_ls.png)
 
 Команда выполнена, теперь можно просмотреть директории с целью найти нужный флаг. Начнем с родительской директории.
 
     cd ..; ls
 
-![](imgs/owasp/1_cd_ls.png)
+![](imgs/owasp/1/1_cd_ls.png)
 
 Видим файл, похожий на наш флаг. просмотрим его с помощью:
 
     cd..; cat flag_fUKsC
 
-![](imgs/owasp/1_cd_cat.png)
+![](imgs/owasp/1/1_cd_cat.png)
 
 Искомый флаг:
 
     HTB{I_f1n4lly_l00k3d_thr0ugh_th3_rc3}
 
-
-![](imgs/owasp)
 
 - #### 2 sanitize
 
@@ -653,26 +651,26 @@ https://app.hackthebox.com/challenges/toxic
 
 Сайт. 
 
-![](imgs/owasp/2_site.png)
+![](imgs/owasp/2/2_site.png)
 
 Попробуем войти в учетку админа. Попробуем стандартные admin:admin
 
-![](imgs/owasp/2_login.png)
+![](imgs/owasp/2/2_login.png)
 
 Не получилось однако видим интересное сообщение на языке SQL.
 Посмотрим на код страницы.
 
-![](imgs/owasp/2_page_source.png)
+![](imgs/owasp/2/2_page_source.png)
 
 Видим закомментированный `/debug`. Попробуем перейти по этому пути.
 
-![](imgs/owasp/2_debug_source.png)
+![](imgs/owasp/2/2_debug_source.png)
 
 Видим код сайта. Самое интересное - функция логина.
 
     q = "select * from users where username = '%s' AND password = '%s';" % (request.form.get('username', ''), request.form.get('password', ''))
 
-![](imgs/owasp/2_vuln.png)
+![](imgs/owasp/2/2_vuln.png)
 
 Сразу понятно, что она уязвима к SQL инъекции.
 Для этого снова попытаемся войти, на этот раз с логином admin и паролем:
@@ -681,7 +679,7 @@ https://app.hackthebox.com/challenges/toxic
 
 Теперь в функцию в качестве пароля попадет 'smth', а также в SQL команду добавится строка `or '1'='1'`. Понятно, что логин произойдет успешно. Получили наш флаг.
 
-![](imgs/owasp/2_login2.png)
+![](imgs/owasp/2/2_login2.png)
 
 Искомый флаг:
 
@@ -695,37 +693,37 @@ https://app.hackthebox.com/challenges/toxic
 
 Перейдем на сайт.
 
-![](imgs/owasp/3_site.png)
+![](imgs/owasp/3/3_site.png)
 
 Просмотрим код страниц. Ничего интересного.
 
-![](imgs/owasp/3_login_source.png)
+![](imgs/owasp/3/3_login_source.png)
 
-![](imgs/owasp/3_register_source.png)
+![](imgs/owasp/3/3_register_source.png)
 
 admin:admin не работает. Также на сайте есть возможность зарегестрирлваться. Попробуем зарегистрироваь новый акк.
 
-![](imgs/owasp/3_register.png)
+![](imgs/owasp/3/3_register.png)
 
 При входе в только что созданный акк видим следующее.
 
-![](imgs/owasp/3_salty_login.png)
+![](imgs/owasp/3/3_salty_login.png)
 
 Посмотрим на куки.
 
-![](imgs/owasp/3_cookie.png)
+![](imgs/owasp/3/3_cookie.png)
 
 Раскодируем в cyberchef.
 
-![](imgs/owasp/3_decoded.png)
+![](imgs/owasp/3/3_decoded.png)
 
 Видим кое-что интересное. Попробуем заменить ник на admin. Кстати, тут почему-то `7/` в конце, я это убрал, ибо не работало по-другому.
 
-![](imgs/owasp/3_encoded.png)
+![](imgs/owasp/3/3_encoded.png)
 
 Теперь перейдем на сайт с этим куки. Получаем флаг.
 
-![](imgs/owasp/3_flag.png)
+![](imgs/owasp/3/3_flag.png)
 
 Искомый флаг:
 
