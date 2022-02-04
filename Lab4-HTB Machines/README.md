@@ -2,7 +2,7 @@
 
 ![](imgs/msf1.png)
 
-Проблема в lport. Изменил ip на свой
+Проблема в lhost. Изменил ip на свой
 
 ![](imgs/ip_addr.png)
 
@@ -29,11 +29,39 @@
 
 ![](imgs/Devzat/nmap.png)
 
-Просмотрим порт 80 - HTTP. Главная страница сайта.
+Просмотрим порт 80 - HTTP. Главная страница сайта - чата для разработчиков.
 
 ![](imgs/Devzat/main_page1.png)
 
+Видим, что 2 ветки гита, 10 клиентов, ... Также предложение подключиться по ssh.
+
 ![](imgs/Devzat/main_page2.png)
 
+email patrick@devzat.htb. Ссылки на социалки не работают.
+
 ![](imgs/Devzat/main_page3.png)
+
+Здесь мы больше ничего не может найти. Попытаемся найти поддомены с помощью gobuster.
+Словарь взят из: 
+https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-110000.txt
+
+![](imgs/Devzat/gobuster.png)
+
+Спустя некоторое нашелся первый поддомен - pets.devzat.htb
+
+![](imgs/Devzat/pets_page.png)
+
+Видим таблицу записей о питомцах. Внизу страницы есть поле ввода.
+
+![](imgs/Devzat/pets_page2.png)
+
+exit status 1 вместо species.
+
+![](imgs/Devzat/pets_page3.png)
+
+Удаление записей не работает.
+
+![](imgs/Devzat/pets_page4.png)
+
+
 
