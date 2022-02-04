@@ -121,3 +121,63 @@
 
 ![](imgs/Mounted/d3_spool_handshake.png)
 
+### Раздел 4
+
+![](imgs/Mounted/d4_main.png)
+
+Видим различные файлы кэша.
+
+![](imgs/Mounted/d4_browser_cache.png)
+
+Также присутствует папка .crashlogs. В них можно увидеть различные ip адреса
+
+![](imgs/Mounted/d4_crashlogs.png)
+
+![](imgs/Mounted/d4_crashlogs_ip.png)
+
+![](imgs/Mounted/d4_crashlogs_ip2.png)
+
+![](imgs/Mounted/d4_crashlogs_ip3.png)
+
+Это различные внутренние сервисы
+
+![](imgs/Mounted/d4_crashlogs_ip_app1.png)
+
+![](imgs/Mounted/d4_crashlogs_ip_app2.png)
+
+Также в одном логе видим московскую часовую зону.
+
+![](imgs/Mounted/d4_crashlogs_timezone.png)
+
+В .ssh видим authorized_keys
+
+![](imgs/Mounted/d4_authorized_keys.png)
+
+В папке media видим токены аутентификации
+
+![](imgs/Mounted/d4_media.png)
+
+Также видим файлы с контактной информации сервисов.
+
+![](imgs/Mounted/d4_service.png)
+
+В папке tmp есть tar файл, в котором можно найти файлы .PGM
+
+![](imgs/Mounted/d4_img1.png)
+
+![](imgs/Mounted/d4_img2.png)
+
+![](imgs/Mounted/d4_img3.png)
+
+![](imgs/Mounted/d4_img4.png)
+
+![](imgs/Mounted/d4_img5.png)
+
+![](imgs/Mounted/d4_img6.png)
+
+![](imgs/Mounted/d4_img7.png)
+
+![](imgs/Mounted/d4_img8.png)
+
+![](imgs/Mounted/d4_img9.png)
+
