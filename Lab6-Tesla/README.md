@@ -50,7 +50,7 @@
 
 В share\ca-certificates\ находятся различны сертификаты
 
-![](imgs\imgs/share_certificatess.png)
+![](imgs/share_certificatess.png)
 
 ### ssl
 
@@ -60,4 +60,64 @@
 
 ### tesla\UI
 
-![]()
+В tesla\UI\apps\ находятся папки различных приложений
+
+![](imgs/tesla_apps.png)
+
+![](imgs/app_audiotest.png)
+![](imgs/app_browser.png)
+
+В tesla\UI\assets\ есть файл со списком возможных голосовых команд.
+
+![](imgs/tesla_voice_commands.png)
+
+В tesla\UI\assets\sounds\WAV\ находятся различные звуковые файлы.
+
+![](imgs/tesla_sounds.png)
+
+В tesla\UI\assets\videos\ есть видео файл "starfield".
+
+![](imgs/starfield.png)
+
+В tesla\UI\assets\web_content\base\ присутствуют файлы для смены темы интерфейса - день/ночь.
+
+![](imgs/tesla_day_nignt.png)
+
+В tesla\UI\assets\web_content\manual\ присутствует мануал пользователя.
+
+![](imgs/tesla_manuals.png)
+
+![](imgs/tesla_manual_index.png)
+
+![](imgs/tesla_manual_img.png)
+
+В tesla\UI\assets\tesla_maps\ находятся файлы Valhalla, "an open source routing engine for navigation".
+
+![](imgs/tesla_valhalla.png)
+
+---
+
+## Mount ISO
+
+При монтировании образа получили 4 раздела
+
+![](imgs/Mounted/disks.png)
+
+### Раздел 3
+
+![](imgs/Mounted/d3_main.png)
+
+Список USB ID, видим какого-то сотрудника.
+
+![](imgs/Mounted/d3_usb.png)
+
+Также видим system и auth лог файлы.
+
+![](imgs/Mounted/d3_auth.png)
+
+![](imgs/Mounted/d3_syslog.png)
+
+Хендшейк cid-updater
+
+![](imgs/Mounted/d3_spool_handshake.png)
+
