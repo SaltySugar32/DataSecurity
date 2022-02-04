@@ -1,26 +1,3 @@
-# Backdoor
-
-![](imgs/msf1.png)
-
-Проблема в lhost. Изменил ip на свой
-
-![](imgs/ip_addr.png)
-
-![](imgs/msf2.png)
-
-запустил shell оболочку, вывел папки
-
-![](imgs/msf3.png)
-
-увидел какой-то user.txt
-
-![](imgs/cat.png)
-
-флаг введен
-
-![](imgs/flag.png)
-
-
 # Devzat (Medium)
 
 ![](imgs/Devzat/htb.png)
