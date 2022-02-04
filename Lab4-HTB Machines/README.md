@@ -63,5 +63,33 @@ exit status 1 вместо species.
 
 ![](imgs/Devzat/pets_page4.png)
 
+Больше ничего не нашли. Проверим pets на директории с gobuster.
+
+![](imgs/Devzat/pets_git.png)
+
+Нашлась директория .git. Скачаем ее с помощью wget -r. Там только один файл - robot.txt
+
+![](imgs/Devzat/robots.png)
+
+Проверим git status. Видим, что удалены все файлы. Попробуем восстановить.
+
+![](imgs/Devzat/git_status.png)
+
+Введем git checkout --., чтобы вернуться к предыдущему коммиту. Получаем набор файлов
+
+![](imgs/Devzat/git_reversed.png)
+
+в файле main.go находится код всех функций на сайте (добавление, удаление записи в таблице, само содержимое таблицы и пр.)
+
+![](imgs/Devzat/main_go.png)
+
+Однако замечаем интересную функцию load_character. Здесь вызывается команда (shell скрипт), в которую конкатенируется параметр species.
+
+![](imgs/Devzat/load_char.png)
+
+Эта функция вызывается при добавлении питомца. species - пользовательский ввод.
+
+![](imgs/Devzat/add_pet.png)
+
 
 
