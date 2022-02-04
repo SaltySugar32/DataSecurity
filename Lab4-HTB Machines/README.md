@@ -2,13 +2,21 @@
 
 ![](imgs/msf1.png)
 
-![](imgs/ip addr.png)
+Проблема в lport. Изменил ip на свой
+
+![](imgs/ip_addr.png)
 
 ![](imgs/msf2.png)
 
+запустил shell оболочку, вывел папки
+
 ![](imgs/msf3.png)
 
+увидел какой-то user.txt
+
 ![](imgs/cat.png)
+
+флаг введен
 
 ![](imgs/flag.png)
 
