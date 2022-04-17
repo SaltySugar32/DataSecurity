@@ -1,39 +1,38 @@
 ## 1. VPN NOT found
 ---
 ## 2. All Info
-                        src_ip               dst_ip bidirectional_packets bidirectional_bytes   application_name application_category_name
-                 192.168.218.2      192.168.218.128                     9                1242               ICMP                   Network
-               192.168.218.130       20.199.120.182                    28                8523      TLS.Microsoft                     Cloud
-               192.168.218.128        192.168.218.2                     9                 990            NetBIOS                    System
-                219.100.37.211      192.168.218.130                  4253             1678358                TLS                       Web
-               192.168.218.130          224.0.0.251                     2                 164               MDNS                   Network
-     fe80::cd3a:d3bf:19f9:cd9e             ff02::fb                     2                 204               MDNS                   Network
-                   20.54.37.73      192.168.218.130                     1                 205          TLS.Azure                     Cloud
-                 192.168.218.1        192.168.218.2                     3                 330            NetBIOS                    System
+              src_ip               dst_ip bidirectional_packets bidirectional_bytes   application_name application_category_name
+     192.168.218.130       23.200.153.227                     4                 216               HTTP                       Web
+       192.168.218.1      192.168.218.255                     2                 172            Spotify                     Music
+     192.168.218.130        93.184.220.29                     4                 216               HTTP                       Web
+       192.168.218.1      239.255.255.250                     3                 630               SSDP                    System
+     192.168.218.130       23.200.153.227                     4                 216               HTTP                       Web
+        20.212.17.54      192.168.218.130                  3350             2443519      OpenVPN.Azure                     Cloud
+      204.79.197.203      192.168.218.130                     1                  54         HTTP.Azure                     Cloud
+     192.168.218.130        23.76.211.239                     4                 216               HTTP                       Web
+       192.168.218.1      239.255.255.250                     4                 844               SSDP                    System
 ## Unique src_ip, dst_ip, application_name
-                        src_ip               dst_ip   application_name
-                 192.168.218.2      192.168.218.128               ICMP
-               192.168.218.130       20.199.120.182      TLS.Microsoft
-               192.168.218.128        192.168.218.2            NetBIOS
-                219.100.37.211      192.168.218.130                TLS
-               192.168.218.130          224.0.0.251               MDNS
-     fe80::cd3a:d3bf:19f9:cd9e             ff02::fb               MDNS
-                   20.54.37.73      192.168.218.130          TLS.Azure
-                 192.168.218.1        192.168.218.2            NetBIOS
+              src_ip               dst_ip   application_name
+     192.168.218.130       23.200.153.227               HTTP
+       192.168.218.1      192.168.218.255            Spotify
+     192.168.218.130        93.184.220.29               HTTP
+       192.168.218.1      239.255.255.250               SSDP
+        20.212.17.54      192.168.218.130      OpenVPN.Azure
+      204.79.197.203      192.168.218.130         HTTP.Azure
+     192.168.218.130        23.76.211.239               HTTP
 ---
 ## 3. Capture start/stop time
 
- Start time: 2022-04-17 14:36:06.693000
+ Start time: 2022-04-17 20:36:16.032000
 
- Stop time: 2022-04-17 14:37:07.861000
+ Stop time: 2022-04-17 20:37:19.717000
 
 ---
 ## 4. Useful info
 
   application_name application_category_name bidirectional_bytes
-              ICMP                   Network                1242
-              MDNS                   Network                 368
-           NetBIOS                    System                1320
-               TLS                       Web             1678358
-         TLS.Azure                     Cloud                 205
-     TLS.Microsoft                     Cloud                8523
+              HTTP                       Web                 864
+        HTTP.Azure                     Cloud                  54
+     OpenVPN.Azure                     Cloud             2443519
+              SSDP                    System                1474
+           Spotify                     Music                 172
