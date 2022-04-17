@@ -5,7 +5,9 @@ attr = ['src_ip','dst_ip','bidirectional_packets','bidirectional_bytes','applica
 def get_data(pcap_file: str, md_name: str):
     md_file = open(md_name, "w")
 
+    tab = '     '
     nfs = NFStreamer(source=pcap_file).to_pandas()[attr]
+    nfs = nfs.astype(str).apply(lambda col: tab + col + tab)
 
     if "VPN" in nfs['application_category_name'].unique():
         md_file.write("## 1. VPN found\n---\n")
