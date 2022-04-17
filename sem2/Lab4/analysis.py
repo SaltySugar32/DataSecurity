@@ -12,7 +12,7 @@ def get_data(pcap_file: str, md_name: str):
     else:
         md_file.write("## 1. VPN NOT found\n---\n")
 
-    md_file.write("## 2. All info\n")
+    md_file.write("## 2. All Info\n")
     md_file.write(nfs.head(nfs.size).to_string(index=False))
     
 
