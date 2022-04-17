@@ -89,3 +89,48 @@
                192.168.218.128      192.168.218.2                     2                 152                     DNS                   Network
                  192.168.218.1        224.0.0.251                     4                 280                    MDNS                   Network
                  192.168.218.1        224.0.0.252                     1                  64                   LLMNR                   Network
+## Unique src_ip, dst_ip, application_name
+                        src_ip             dst_ip        application_name
+               192.168.218.128      192.168.218.2           DNS.Wikipedia
+               192.168.218.128      192.168.218.2                DNS.eBay
+               192.168.218.128      192.168.218.2                     DNS
+               192.168.218.128      192.168.218.2              DNS.Github
+               192.168.218.128      192.168.218.2           DNS.AmazonAWS
+               192.168.218.128      192.168.218.2              DNS.Google
+               192.168.218.128      192.168.218.2             DNS.YouTube
+               192.168.218.128      192.168.218.2      DNS.GoogleServices
+     fe80::ad6e:88d6:4222:3adc          ff02::1:3                   LLMNR
+                 192.168.218.1        224.0.0.252                   LLMNR
+               192.168.218.128      192.168.218.2           DNS.Microsoft
+               192.168.218.128      192.168.218.2            DNS.LinkedIn
+     fe80::ad6e:88d6:4222:3adc           ff02::fb                    MDNS
+               192.168.218.128       20.205.224.0             IPsec.Azure
+               192.168.218.128      192.168.218.2            DNS.Facebook
+                 192.168.218.1        224.0.0.251                    MDNS
+---
+## 3. Capture start/stop time
+
+ Start time: 2022-04-17 15:26:51.030000
+
+ Stop time: 2022-04-17 15:27:53.530000
+
+---
+## 4. Useful info
+
+       application_name application_category_name bidirectional_bytes
+                    DNS             Advertisement                 232
+                    DNS                   Network                7148
+          DNS.AmazonAWS                     Cloud                 244
+           DNS.Facebook             SocialNetwork                 223
+             DNS.Github             Collaborative                1021
+             DNS.Google             Advertisement                1937
+             DNS.Google                       Web                1241
+     DNS.GoogleServices                       Web                 588
+           DNS.LinkedIn             SocialNetwork                1284
+          DNS.Microsoft                     Cloud                 669
+          DNS.Wikipedia                       Web                 757
+            DNS.YouTube                     Media                2521
+               DNS.eBay                  Shopping                3320
+            IPsec.Azure                     Cloud             9843393
+                  LLMNR                   Network                 296
+                   MDNS                   Network                 640

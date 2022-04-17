@@ -189,3 +189,117 @@
      192.168.218.128      209.140.136.167                    25               12816                 TLS.eBay                  Shopping
      192.168.218.128       209.140.129.52                    24               11055                 TLS.eBay                  Shopping
      192.168.218.128        64.233.165.94                    33                9188               TLS.Google                       Web
+## Unique src_ip, dst_ip, application_name
+              src_ip               dst_ip         application_name
+     192.168.218.128       173.194.73.198             QUIC.YouTube
+     192.168.218.128        192.168.218.2                 DNS.eBay
+     192.168.218.128         184.50.21.48                 TLS.eBay
+     192.168.218.128         8.241.42.122                 TLS.eBay
+     192.168.218.128      185.199.108.154                      TLS
+     192.168.218.128       209.140.129.66                 TLS.eBay
+     192.168.218.128        192.168.218.2               DNS.Github
+     192.168.218.128        192.168.218.2                      DNS
+     192.168.218.128        192.168.218.2               DNS.Google
+     192.168.218.128        87.250.250.41                      TLS
+     192.168.218.128      213.180.193.234                      TLS
+     192.168.218.128       209.140.129.54                 TLS.eBay
+     192.168.218.128      173.194.220.188                   Google
+     192.168.218.128      216.113.181.254                 TLS.eBay
+     192.168.218.128      173.194.220.154              QUIC.Google
+     192.168.218.128       188.114.99.128           TLS.Cloudflare
+     192.168.218.128      173.194.220.154               TLS.Google
+     192.168.218.128        140.82.112.21               TLS.Github
+     192.168.218.128       87.240.139.194                      TLS
+     192.168.218.128        192.168.218.2                  NetBIOS
+     192.168.218.128       64.233.165.155              QUIC.Google
+     192.168.218.128       74.125.131.154              QUIC.Google
+     192.168.218.128       213.180.204.24                      TLS
+     192.168.218.128        3.123.205.102            TLS.AmazonAWS
+     192.168.218.128      173.194.222.154               TLS.Google
+     192.168.218.128          77.88.55.66                      TLS
+     192.168.218.128         140.82.121.6               TLS.Github
+     192.168.218.128       93.184.221.225                      TLS
+     192.168.218.128      142.250.150.113              QUIC.Google
+     192.168.218.128       74.125.205.101               TLS.Google
+     192.168.218.128       151.101.78.133                      TLS
+     192.168.218.128       64.233.162.149              QUIC.Google
+     192.168.218.128       209.85.233.154               TLS.Google
+     192.168.218.128        93.184.220.29                     HTTP
+     192.168.218.128        87.250.251.20                      TLS
+     192.168.218.128       35.174.150.168            TLS.AmazonAWS
+     192.168.218.128       64.233.162.149               TLS.Google
+     192.168.218.128       35.174.151.106            TLS.AmazonAWS
+     192.168.218.128        192.168.218.2              DNS.YouTube
+     192.168.218.128        64.233.165.94               TLS.Google
+     192.168.218.128       209.85.233.119             QUIC.YouTube
+     192.168.218.128        74.125.131.84              QUIC.Google
+     192.168.218.128      209.140.136.167                 TLS.eBay
+     192.168.218.128       209.140.129.52                 TLS.eBay
+     192.168.218.128       173.194.73.198                   Google
+     192.168.218.128        64.233.164.94              QUIC.Google
+     192.168.218.128       64.233.161.119                   Google
+     192.168.218.128         151.101.1.21                      TLS
+     192.168.218.128      185.199.110.133               TLS.Github
+     192.168.218.128        192.168.218.2            DNS.AmazonAWS
+     192.168.218.128          18.159.7.41            TLS.AmazonAWS
+     192.168.218.128       209.140.129.84                 TLS.eBay
+     192.168.218.128       64.233.165.157              QUIC.Google
+     192.168.218.128        93.158.134.17                      TLS
+     192.168.218.128       64.233.165.155               TLS.Google
+     192.168.218.128       74.125.131.154               TLS.Google
+     192.168.218.128          77.88.21.37                      TLS
+     192.168.218.128       64.233.165.157               TLS.Google
+     192.168.218.128      173.194.222.154              QUIC.Google
+     192.168.218.128       93.184.221.225                 TLS.eBay
+     192.168.218.128       192.229.221.25                      TLS
+     192.168.218.128        192.168.218.2             DNS.Facebook
+     192.168.218.128        192.168.218.2             DNS.LinkedIn
+     192.168.218.128         13.107.42.14             TLS.LinkedIn
+     192.168.218.128       209.85.233.154              QUIC.Google
+     192.168.218.128        79.133.77.109             QUIC.YouTube
+     192.168.218.128       74.125.131.113              TLS.YouTube
+     192.168.218.128        173.194.73.95      QUIC.GoogleServices
+     192.168.218.128          64.4.250.37                      TLS
+     192.168.218.128         140.82.121.4               TLS.Github
+     192.168.218.128        74.125.131.94              QUIC.Google
+     192.168.218.128      213.180.204.158                      TLS
+     192.168.218.128       149.154.167.99             TLS.Telegram
+       192.168.218.2      192.168.218.128                     ICMP
+---
+## 3. Capture start/stop time
+
+ Start time: 2022-04-17 15:15:18.155000
+
+ Stop time: 2022-04-17 15:16:14.971000
+
+---
+## 4. Useful info
+
+        application_name application_category_name bidirectional_bytes
+                     DNS                   Network                6183
+           DNS.AmazonAWS                     Cloud                 244
+            DNS.Facebook             SocialNetwork                 223
+              DNS.Github             Collaborative                1021
+              DNS.Google             Advertisement                1513
+              DNS.Google                       Web                1028
+            DNS.LinkedIn             SocialNetwork                 256
+             DNS.YouTube                     Media                1025
+                DNS.eBay                  Shopping                3066
+                  Google                       Web              674262
+                    HTTP                       Web                1426
+                    ICMP                   Network                1242
+                 NetBIOS                    System                 990
+             QUIC.Google             Advertisement               71320
+             QUIC.Google                       Web              143740
+     QUIC.GoogleServices                       Web               12327
+            QUIC.YouTube                     Media             2848193
+                     TLS                       Web              533097
+           TLS.AmazonAWS                     Cloud               47585
+          TLS.Cloudflare                       Web               14977
+              TLS.Github             Collaborative              102603
+              TLS.Google             Advertisement               24914
+              TLS.Google                       Web               19966
+            TLS.LinkedIn             SocialNetwork                1714
+            TLS.Telegram                      Chat            34726849
+             TLS.YouTube                     Media               61848
+                TLS.eBay                  Shopping              494800

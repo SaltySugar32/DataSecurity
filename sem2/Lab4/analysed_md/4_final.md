@@ -245,8 +245,11 @@
                  192.168.218.1          224.0.0.252                     1                  73                    LLMNR                   Network
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  88                    LLMNR                   Network
                192.168.218.128       188.114.99.128                    35               15158           TLS.Cloudflare                       Web
+                 74.125.131.94      192.168.218.128                     4                 216               TLS.Google                       Web
+                 74.125.131.94      192.168.218.128                     4                 232               TLS.Google                       Web
                192.168.218.128        74.125.131.95                    35               30045      QUIC.GoogleServices                       Web
                192.168.218.128        192.168.218.2                     2                 170                      DNS                   Network
+               192.168.218.128      172.217.194.188                    19                9023       TLS.GoogleServices                       Web
                192.168.218.128      173.194.222.155                     6                7097              QUIC.Google             Advertisement
                192.168.218.128      173.194.222.155                     6                 857               TLS.Google             Advertisement
                192.168.218.128       209.140.129.82                    18                7006                 TLS.eBay                  Shopping
@@ -254,6 +257,7 @@
                192.168.218.128      209.140.148.240                    24               11353                 TLS.eBay                  Shopping
                192.168.218.128      213.180.193.234                    36                8931                      TLS                       Web
                192.168.218.128        140.82.114.22                    29                7617               TLS.Github             Collaborative
+               192.168.218.128          224.0.0.251                    95                7725                     MDNS                   Network
      fe80::e832:e83c:8660:d075            ff02::1:3                     2                 176                    LLMNR                   Network
                192.168.218.128          224.0.0.252                     2                 136                    LLMNR                   Network
      fe80::e832:e83c:8660:d075            ff02::1:3                     2                 186                    LLMNR                   Network
@@ -263,140 +267,136 @@
                192.168.218.128       91.198.174.192                   217              211739            TLS.Wikipedia                       Web
                192.168.218.128       209.140.129.54                    21               10053                 TLS.eBay                  Shopping
                192.168.218.128         184.50.21.48                    46               14921                 TLS.eBay                  Shopping
+                 192.168.218.1          224.0.0.251                    86                6422                     MDNS                   Network
                192.168.218.128       209.140.129.54                    16                7462                 TLS.eBay                  Shopping
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128          18.159.7.41                    27                6697            TLS.AmazonAWS                     Cloud
-               192.168.218.128        192.168.218.2                     2                 193            DNS.Wikipedia                       Web
-               192.168.218.128         140.82.121.6                    29                7017               TLS.Github             Collaborative
-               192.168.218.128       91.198.174.208                    11                4975            TLS.Wikipedia                       Web
-               192.168.218.128         140.82.121.6                    17                4641               TLS.Github             Collaborative
-               192.168.218.128       209.140.129.68                    25               14856                 TLS.eBay                  Shopping
-               192.168.218.128       209.140.129.68                    15                6123                 TLS.eBay                  Shopping
-               192.168.218.128        192.168.218.2                     2                 218               DNS.Google                       Web
-               192.168.218.128        192.168.218.2                     2                 242               DNS.Google             Advertisement
-               192.168.218.128      173.194.222.157                     5                4811              QUIC.Google             Advertisement
-               192.168.218.128        192.168.218.2                     2                 224               DNS.Google                       Web
-               192.168.218.128       74.125.131.154                     7                7536              QUIC.Google                       Web
-               192.168.218.128        192.168.218.2                     2                 251             DNS.LinkedIn             SocialNetwork
-               192.168.218.128        192.168.218.2                     2                 313             DNS.LinkedIn             SocialNetwork
-               192.168.218.128         13.107.42.14                     6                 857             TLS.LinkedIn             SocialNetwork
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128         23.32.236.56                    18                6378             TLS.LinkedIn             SocialNetwork
-               192.168.218.128       64.233.165.154                     6                7097              QUIC.Google             Advertisement
-               192.168.218.128         13.107.42.14                     6                 857             TLS.LinkedIn             SocialNetwork
-               192.168.218.128       64.233.165.154                     6                 857               TLS.Google             Advertisement
-               192.168.218.128       91.198.174.208                    34               13085            TLS.Wikipedia                       Web
-               192.168.218.128          18.159.7.41                    27                6525            TLS.AmazonAWS                     Cloud
-               192.168.218.128       91.198.174.208                     9                 530                      TLS                       Web
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     3                 228                      DNS                   Network
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128         184.50.21.48                   394              372046                 TLS.eBay                  Shopping
                  192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                    57                5532                  NetBIOS                    System
+               192.168.218.128          18.159.7.41                    27                6697            TLS.AmazonAWS                     Cloud
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     2                 193            DNS.Wikipedia                       Web
+               192.168.218.128        192.168.218.2                     2                 197       DNS.GoogleServices                       Web
+               192.168.218.128         140.82.121.6                    29                7017               TLS.Github             Collaborative
+               192.168.218.128        192.168.218.2                     2                 180                      DNS                   Network
+               192.168.218.128       91.198.174.208                    11                4975            TLS.Wikipedia                       Web
+               192.168.218.128        192.168.218.2                     3                 258                      DNS                   Network
+               192.168.218.128         140.82.121.6                    17                4641               TLS.Github             Collaborative
+               192.168.218.128        192.168.218.2                     3                 237                      DNS                   Network
+               192.168.218.128       209.140.129.68                    25               14856                 TLS.eBay                  Shopping
+               192.168.218.128      213.180.193.234                    28                7988                      TLS                       Web
+               192.168.218.128       209.140.129.68                    15                6123                 TLS.eBay                  Shopping
+               192.168.218.128       219.100.37.211                 11156             4589693                      TLS                       Web
+               192.168.218.128        192.168.218.2                     2                 218               DNS.Google                       Web
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     2                 242               DNS.Google             Advertisement
+               192.168.218.128      192.168.218.255                   114               10488                  NetBIOS                    System
+               192.168.218.128      173.194.222.157                     5                4811              QUIC.Google             Advertisement
+                 192.168.218.1          224.0.0.252                     1                  74                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     2                 224               DNS.Google                       Web
+                 192.168.218.1          224.0.0.252                     1                  67                    LLMNR                   Network
+               192.168.218.128       74.125.131.154                     7                7536              QUIC.Google                       Web
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  87                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     2                 251             DNS.LinkedIn             SocialNetwork
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     2                 313             DNS.LinkedIn             SocialNetwork
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
+               192.168.218.128         13.107.42.14                     6                 857             TLS.LinkedIn             SocialNetwork
+               192.168.218.128        192.168.218.2                     2                 194            DNS.Microsoft                       Web
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 188                    LLMNR                   Network
+               192.168.218.128         23.32.236.56                    18                6378             TLS.LinkedIn             SocialNetwork
+               192.168.218.128          224.0.0.252                     2                 148                    LLMNR                   Network
+               192.168.218.128       64.233.165.154                     6                7097              QUIC.Google             Advertisement
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 174                    LLMNR                   Network
+               192.168.218.128         13.107.42.14                     6                 857             TLS.LinkedIn             SocialNetwork
+               192.168.218.128          224.0.0.252                     2                 134                    LLMNR                   Network
+               192.168.218.128       64.233.165.154                     6                 857               TLS.Google             Advertisement
+               192.168.218.128         20.54.36.229                    27                8182            TLS.Microsoft                     Cloud
+               192.168.218.128       91.198.174.208                    34               13085            TLS.Wikipedia                       Web
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128          18.159.7.41                    27                6525            TLS.AmazonAWS                     Cloud
+               192.168.218.128        192.168.218.2                     3                 255                      DNS                   Network
+               192.168.218.128       91.198.174.208                     9                 530                      TLS                       Web
+               192.168.218.128        64.233.165.94                     5                5643              QUIC.Google                       Web
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
+                 192.168.218.1          224.0.0.252                     1                  73                    LLMNR                   Network
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
+                 192.168.218.1          224.0.0.252                     1                  72                    LLMNR                   Network
+               192.168.218.128        192.168.218.2                     3                 228                      DNS                   Network
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  95                    LLMNR                   Network
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128       172.217.31.182                   549              520326                   Google                       Web
+               192.168.218.128         184.50.21.48                   394              372046                 TLS.eBay                  Shopping
+               192.168.218.128       91.198.174.192                    44               28945            TLS.Wikipedia                       Web
+                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
+                 192.168.218.1          224.0.0.252                     1                  75                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 221                 DNS.eBay                  Shopping
+                 192.168.218.1          224.0.0.252                     1                  72                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 214                 DNS.eBay                  Shopping
+               192.168.218.128        192.168.218.2                     2                 193            DNS.Wikipedia                       Web
                192.168.218.128       209.140.129.52                    22               10300                 TLS.eBay                  Shopping
+               192.168.218.128        192.168.218.2                     2                 232             DNS.LinkedIn             SocialNetwork
                192.168.218.128      209.140.136.194                    24               10540                 TLS.eBay                  Shopping
+               192.168.218.128         23.32.236.57                    19                6432             TLS.LinkedIn             SocialNetwork
                192.168.218.128      209.140.136.194                    16                6331                 TLS.eBay                  Shopping
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  92                    LLMNR                   Network
                192.168.218.128       151.101.78.206                     9                 530                      TLS                       Web
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  93                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 216                      DNS                   Network
+                 192.168.218.1          224.0.0.252                     1                  75                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 209               DNS.Google             Advertisement
                192.168.218.128       64.233.161.102                    18                8686              QUIC.Google                       Web
+               192.168.218.128        192.168.218.2                     3                 240                      DNS                   Network
                192.168.218.128       192.229.221.25                    23                9182                      TLS                       Web
+               192.168.218.128        192.168.218.2                     2                 238               DNS.Google             Advertisement
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+               192.168.218.128      213.180.193.234                    49               15678                      TLS                       Web
                192.168.218.128      213.180.193.234                    33               11016                      TLS                       Web
+               192.168.218.128        192.168.218.2                     2                 156               DNS.Github             Collaborative
                192.168.218.128        192.168.218.2                     2                 253              DNS.YouTube                     Media
+               192.168.218.128       64.233.163.188                    21                9255       TLS.GoogleServices                       Web
                192.168.218.128        79.133.77.110                  3089             3766850             QUIC.YouTube                     Media
                192.168.218.128       209.140.129.68                    25               14500                 TLS.eBay                  Shopping
+               192.168.218.128        192.168.218.2                     2                 172                      DNS                   Network
                192.168.218.128        18.232.28.189                    18                6559            TLS.AmazonAWS                     Cloud
+               192.168.218.128        192.168.218.2                     2                 197                      DNS                   Network
                192.168.218.128       108.177.14.149                     6                 857               TLS.Google             Advertisement
+               192.168.218.128          64.4.250.36                    29                8132                      TLS                       Web
                192.168.218.128      173.194.222.155                     6                7097              QUIC.Google             Advertisement
+               192.168.218.128        192.168.218.2                     2                 239                 DNS.eBay                  Shopping
                192.168.218.128      173.194.221.154                     6                 857               TLS.Google             Advertisement
+               192.168.218.128        192.168.218.2                     2                 242                      DNS                   Network
                192.168.218.128      173.194.221.154                     6                 857               TLS.Google             Advertisement
+               192.168.218.128        192.168.218.2                     2                 230                      DNS                   Network
                192.168.218.128         140.82.121.6                    55               12039               TLS.Github             Collaborative
+               192.168.218.128      185.199.111.154                    15                5154                      TLS                       Web
                192.168.218.128       151.101.78.133                    18                6189                      TLS                       Web
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 242              DNS.YouTube                     Media
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
                192.168.218.128        140.82.114.22                    29                7775               TLS.Github             Collaborative
                192.168.218.128        140.82.114.22                    17                5188               TLS.Github             Collaborative
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
                192.168.218.128      185.199.109.133                    63               45566               TLS.Github             Collaborative
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
                192.168.218.128      213.180.193.234                    64               19078                      TLS                       Web
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 274               DNS.Github             Collaborative
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 278               DNS.Google                       Web
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
                192.168.218.128      209.140.139.215                    25               11923                 TLS.eBay                  Shopping
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
                192.168.218.128         140.82.121.6                    78               41290               TLS.Github             Collaborative
+     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
                192.168.218.128       209.140.129.52                    24               10615                 TLS.eBay                  Shopping
+               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
                192.168.218.128      213.180.193.234                    23                9181                      TLS                       Web
-                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
-                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
-                 74.125.131.94      192.168.218.128                     4                 216               TLS.Google                       Web
-                 74.125.131.94      192.168.218.128                     4                 232               TLS.Google                       Web
-               192.168.218.128      172.217.194.188                    19                9023       TLS.GoogleServices                       Web
-               192.168.218.128          224.0.0.251                    95                7725                     MDNS                   Network
-                 192.168.218.1          224.0.0.251                    86                6422                     MDNS                   Network
-                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                    57                5532                  NetBIOS                    System
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     2                 197       DNS.GoogleServices                       Web
-               192.168.218.128        192.168.218.2                     2                 180                      DNS                   Network
-               192.168.218.128        192.168.218.2                     3                 258                      DNS                   Network
-               192.168.218.128        192.168.218.2                     3                 237                      DNS                   Network
-               192.168.218.128      213.180.193.234                    28                7988                      TLS                       Web
-               192.168.218.128       219.100.37.211                 11156             4589693                      TLS                       Web
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128      192.168.218.255                   114               10488                  NetBIOS                    System
-                 192.168.218.1          224.0.0.252                     1                  74                    LLMNR                   Network
-                 192.168.218.1          224.0.0.252                     1                  67                    LLMNR                   Network
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  87                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     2                 194            DNS.Microsoft                       Web
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 188                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 148                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 174                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 134                    LLMNR                   Network
-               192.168.218.128         20.54.36.229                    27                8182            TLS.Microsoft                     Cloud
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     3                 255                      DNS                   Network
-               192.168.218.128        64.233.165.94                     5                5643              QUIC.Google                       Web
-                 192.168.218.1          224.0.0.252                     1                  73                    LLMNR                   Network
-                 192.168.218.1          224.0.0.252                     1                  72                    LLMNR                   Network
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  95                    LLMNR                   Network
-               192.168.218.128       172.217.31.182                   549              520326                   Google                       Web
-               192.168.218.128       91.198.174.192                    44               28945            TLS.Wikipedia                       Web
-                 192.168.218.1          224.0.0.252                     1                  75                    LLMNR                   Network
-                 192.168.218.1          224.0.0.252                     1                  72                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     2                 193            DNS.Wikipedia                       Web
-               192.168.218.128        192.168.218.2                     2                 232             DNS.LinkedIn             SocialNetwork
-               192.168.218.128         23.32.236.57                    19                6432             TLS.LinkedIn             SocialNetwork
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  92                    LLMNR                   Network
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  93                    LLMNR                   Network
-                 192.168.218.1          224.0.0.252                     1                  75                    LLMNR                   Network
-               192.168.218.128        192.168.218.2                     3                 240                      DNS                   Network
-               192.168.218.128        192.168.218.2                     2                 238               DNS.Google             Advertisement
-               192.168.218.128      213.180.193.234                    49               15678                      TLS                       Web
-               192.168.218.128        192.168.218.2                     2                 156               DNS.Github             Collaborative
-               192.168.218.128       64.233.163.188                    21                9255       TLS.GoogleServices                       Web
-               192.168.218.128        192.168.218.2                     2                 172                      DNS                   Network
-               192.168.218.128        192.168.218.2                     2                 197                      DNS                   Network
-               192.168.218.128          64.4.250.36                    29                8132                      TLS                       Web
-               192.168.218.128        192.168.218.2                     2                 239                 DNS.eBay                  Shopping
-               192.168.218.128        192.168.218.2                     2                 242                      DNS                   Network
-               192.168.218.128        192.168.218.2                     2                 230                      DNS                   Network
-               192.168.218.128      185.199.111.154                    15                5154                      TLS                       Web
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-     fe80::e832:e83c:8660:d075            ff02::1:3                     2                 168                    LLMNR                   Network
-               192.168.218.128          224.0.0.252                     2                 128                    LLMNR                   Network
-     fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  93                    LLMNR                   Network
+                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
                  192.168.218.1          224.0.0.252                     1                  68                    LLMNR                   Network
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  93                    LLMNR                   Network
+                 192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
                192.168.218.128        192.168.218.2                     2                 242               DNS.Github             Collaborative
                192.168.218.128         140.82.121.4                    28                8757               TLS.Github             Collaborative
                192.168.218.128        192.168.218.2                     2                 244            DNS.AmazonAWS                     Cloud
@@ -497,3 +497,163 @@
                  192.168.218.1          224.0.0.252                     1                  64                    LLMNR                   Network
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
      fe80::ad6e:88d6:4222:3adc            ff02::1:3                     1                  84                    LLMNR                   Network
+## Unique src_ip, dst_ip, application_name
+                        src_ip               dst_ip         application_name
+               213.180.193.234      192.168.218.128                      TLS
+                 74.125.131.94      192.168.218.128               TLS.Google
+     fe80::e832:e83c:8660:d075             ff02::16                   ICMPV6
+               192.168.218.128           224.0.0.22                     IGMP
+     fe80::e832:e83c:8660:d075             ff02::fb                     MDNS
+               192.168.218.128        192.168.218.2                      DNS
+     fe80::ad6e:88d6:4222:3adc            ff02::1:3                    LLMNR
+               192.168.218.128       64.233.163.188       TLS.GoogleServices
+                 192.168.218.1          224.0.0.252                    LLMNR
+     fe80::e832:e83c:8660:d075            ff02::1:3                    LLMNR
+               192.168.218.128          224.0.0.252                    LLMNR
+                 192.168.218.2      192.168.218.128                     ICMP
+               192.168.218.128        192.168.218.2            DNS.Microsoft
+               192.168.218.128        192.168.218.2              DNS.DoH_DoT
+               192.168.218.128        40.90.189.152            TLS.Microsoft
+               192.168.218.128      192.168.218.254                     DHCP
+               192.168.218.128      239.255.255.250                     SSDP
+                   192.168.1.1      192.168.218.128                     SSDP
+               192.168.218.128              8.8.8.8               DNS.Google
+               192.168.218.128        192.168.218.2              DNS.YouTube
+               192.168.218.128        192.168.218.2       DNS.GoogleServices
+               192.168.218.128        192.168.218.2            DNS.Wikipedia
+               192.168.218.128         13.107.42.14             TLS.LinkedIn
+               192.168.218.128        192.168.218.2                 DNS.eBay
+               192.168.218.128         140.82.121.4               TLS.Github
+               192.168.218.128      213.180.193.234                      TLS
+               192.168.218.128       151.101.78.206                 TLS.eBay
+               192.168.218.128         184.50.21.48                 TLS.eBay
+               192.168.218.128      185.199.109.133               TLS.Github
+               192.168.218.128        192.168.218.2               DNS.Github
+               192.168.218.128        192.168.218.2               DNS.Google
+               192.168.218.128       209.140.129.82                 TLS.eBay
+               192.168.218.128      209.140.148.240                 TLS.eBay
+               192.168.218.128      173.194.221.154               TLS.Google
+               192.168.218.128       209.140.129.54                 TLS.eBay
+               192.168.218.128       91.198.174.208            TLS.Wikipedia
+               192.168.218.128       91.198.174.208                      TLS
+               192.168.218.128       209.140.129.68                 TLS.eBay
+               192.168.218.128        74.125.131.94               TLS.Google
+               192.168.218.128      173.194.222.155              QUIC.Google
+               192.168.218.128         23.32.236.56             TLS.LinkedIn
+               192.168.218.128       151.101.193.21                      TLS
+               192.168.218.128       64.233.165.154               TLS.Google
+               192.168.218.128      173.194.222.157              QUIC.Google
+               192.168.218.128       74.125.131.154              QUIC.Google
+               192.168.218.128       74.125.131.154               TLS.Google
+               192.168.218.128       209.140.129.52                 TLS.eBay
+               192.168.218.128      209.140.139.215                 TLS.eBay
+               192.168.218.128         23.75.95.108                 TLS.eBay
+               192.168.218.128        192.168.218.2             DNS.LinkedIn
+               192.168.218.128       151.101.78.133                      TLS
+               192.168.218.128       192.229.221.25                      TLS
+               192.168.218.128        18.232.28.189            TLS.AmazonAWS
+               192.168.218.128       108.177.14.149               TLS.Google
+               192.168.218.128         140.82.121.6               TLS.Github
+               192.168.218.128      173.194.221.154              QUIC.Google
+               192.168.218.128        74.125.131.94              QUIC.Google
+               192.168.218.128       93.158.134.242                      TLS
+               192.168.218.128       173.194.73.198              TLS.YouTube
+               192.168.218.128      185.199.111.153               TLS.Github
+               192.168.218.128        140.82.114.22               TLS.Github
+               192.168.218.128        20.212.18.139                WireGuard
+                93.158.134.242      192.168.218.128                      TLS
+                64.233.161.113      192.168.218.128               TLS.Google
+                   20.54.37.73      192.168.218.128                TLS.Azure
+     fe80::ad6e:88d6:4222:3adc             ff02::fb                     MDNS
+               192.168.218.128              8.8.8.8            DNS.Microsoft
+               192.168.218.128        64.233.164.95      QUIC.GoogleServices
+               192.168.218.128      172.253.118.190                   Google
+               192.168.218.128        64.233.165.94              QUIC.Google
+               192.168.218.128       173.194.73.198             QUIC.YouTube
+               192.168.218.128      185.199.111.154                      TLS
+               192.168.218.128        64.233.161.94              QUIC.Google
+               192.168.218.128       188.114.99.128           TLS.Cloudflare
+               192.168.218.128        74.125.131.95      QUIC.GoogleServices
+               192.168.218.128      172.217.194.188       TLS.GoogleServices
+               192.168.218.128      173.194.222.155               TLS.Google
+               192.168.218.128          224.0.0.251                     MDNS
+               192.168.218.128       91.198.174.192            TLS.Wikipedia
+                 192.168.218.1          224.0.0.251                     MDNS
+               192.168.218.128        192.168.218.2                  NetBIOS
+               192.168.218.128          18.159.7.41            TLS.AmazonAWS
+               192.168.218.128       219.100.37.211                      TLS
+               192.168.218.128      192.168.218.255                  NetBIOS
+               192.168.218.128       64.233.165.154              QUIC.Google
+               192.168.218.128         20.54.36.229            TLS.Microsoft
+               192.168.218.128       172.217.31.182                   Google
+               192.168.218.128      209.140.136.194                 TLS.eBay
+               192.168.218.128         23.32.236.57             TLS.LinkedIn
+               192.168.218.128       151.101.78.206                      TLS
+               192.168.218.128       64.233.161.102              QUIC.Google
+               192.168.218.128        79.133.77.110             QUIC.YouTube
+               192.168.218.128          64.4.250.36                      TLS
+               192.168.218.128        192.168.218.2            DNS.AmazonAWS
+               192.168.218.128       172.217.160.68                   Google
+               192.168.218.128       142.250.199.97                   Google
+               192.168.218.128       91.198.174.192                      TLS
+               192.168.218.128      173.194.222.157               TLS.Google
+               192.168.218.128       74.125.205.139              QUIC.Google
+               192.168.218.128        192.168.218.2             DNS.Facebook
+               192.168.218.128       108.177.14.149              QUIC.Google
+               192.168.218.128      185.199.108.133               TLS.Github
+               192.168.218.128      142.250.150.139              QUIC.Google
+               192.168.218.128      185.199.109.133                      TLS
+               192.168.218.128        142.251.1.101               TLS.Google
+---
+## 3. Capture start/stop time
+
+ Start time: 2022-04-17 15:17:52.810000
+
+ Stop time: 2022-04-17 15:20:34.295000
+
+---
+## 4. Useful info
+
+        application_name application_category_name bidirectional_bytes
+                    DHCP                   Network                 700
+                     DNS                   Network                7122
+           DNS.AmazonAWS                     Cloud                 244
+             DNS.DoH_DoT                   Network                 172
+            DNS.Facebook             SocialNetwork                 446
+              DNS.Github             Collaborative                2057
+              DNS.Google             Advertisement                1499
+              DNS.Google                       Web                1808
+      DNS.GoogleServices                       Web                 965
+            DNS.LinkedIn             SocialNetwork                1359
+           DNS.Microsoft                     Cloud                 446
+           DNS.Microsoft                 ConnCheck                 168
+           DNS.Microsoft                       Web                 194
+           DNS.Wikipedia                       Web                1514
+             DNS.YouTube                     Media                 722
+                DNS.eBay                  Shopping                2854
+                  Google                       Web              707338
+                    ICMP                   Network                7128
+                  ICMPV6                   Network                4300
+                    IGMP                   Network                1814
+                   LLMNR                   Network               18910
+                    MDNS                   Network               31914
+                 NetBIOS                    System               16020
+             QUIC.Google             Advertisement               92574
+             QUIC.Google                       Web              168672
+     QUIC.GoogleServices                       Web               32904
+            QUIC.YouTube                     Media             3776745
+                    SSDP                    System                 521
+                     TLS                       Web             5214704
+           TLS.AmazonAWS                     Cloud               45580
+               TLS.Azure                     Cloud                1025
+          TLS.Cloudflare                       Web               30069
+              TLS.Github             Collaborative             1675725
+              TLS.Google             Advertisement               15426
+              TLS.Google                       Web               30670
+      TLS.GoogleServices                       Web               37023
+            TLS.LinkedIn             SocialNetwork               31294
+           TLS.Microsoft                     Cloud               25757
+           TLS.Wikipedia                       Web              814088
+             TLS.YouTube                     Media              257885
+                TLS.eBay                  Shopping             1576736
+               WireGuard                       VPN             3204822
