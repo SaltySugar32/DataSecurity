@@ -1,4 +1,4 @@
-## 1. VPN NOT found
+## 1. VPN found
 ---
 ## 2. All Info
             src_ip               dst_ip bidirectional_packets bidirectional_bytes application_name application_category_name

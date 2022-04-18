@@ -11,7 +11,7 @@ def get_data(pcap_file: str, md_name: str):
     nfs = nfs.astype(str).apply(lambda col: tab + col)
 
     # 1. Проверка на наличие VPN трафика (application_category_name)
-    if "VPN" in nfs['application_category_name'].unique():
+    if tab+'VPN' in nfs['application_category_name'].unique():
         md_file.write("## 1. VPN found\n---\n")
     else:
         md_file.write("## 1. VPN NOT found\n---\n")
