@@ -1,7 +1,8 @@
-## 1. VPN NOT found
+## 1. VPN found
 ---
 ## 2. All Info
               src_ip               dst_ip bidirectional_packets bidirectional_bytes   application_name application_category_name
+     192.168.218.130       23.200.153.227                     4                 216               HTTP                       Web
      192.168.218.130       23.200.153.227                     4                 216               HTTP                       Web
        192.168.218.1      192.168.218.255                     2                 172            Spotify                     Music
      192.168.218.130        93.184.220.29                     4                 216               HTTP                       Web
@@ -10,7 +11,6 @@
       204.79.197.203      192.168.218.130                     1                  54         HTTP.Azure                     Cloud
      192.168.218.130        23.76.211.239                     4                 216               HTTP                       Web
        192.168.218.1      239.255.255.250                     4                 844               SSDP                    System
-     192.168.218.130       23.200.153.227                     4                 216               HTTP                       Web
 ## Unique src_ip, dst_ip, application_name
               src_ip               dst_ip   application_name
      192.168.218.130       23.200.153.227               HTTP

@@ -11,7 +11,8 @@ def get_data(pcap_file: str, md_name: str):
     nfs = nfs.astype(str).apply(lambda col: tab + col)
 
     # 1. Проверка на наличие VPN трафика (application_category_name)
-    if tab+'VPN' in nfs['application_category_name'].unique():
+    temp = nfs['application_name'].unique()
+    if ('     WireGuard' in temp) or ('     IPsec.Azure' in temp) or ('     OpenVPN.Azure' in temp):
         md_file.write("## 1. VPN found\n---\n")
     else:
         md_file.write("## 1. VPN NOT found\n---\n")
@@ -44,7 +45,7 @@ def get_data(pcap_file: str, md_name: str):
     md_file.close()
     
 
-if __name__ == '__main__':
+def print_all():
     dir = "analysed_md/"
     get_data("data/1/wireguard.pcapng", dir+"1_wireguard.md")
     get_data("data/1/ipsec.pcapng", dir+"1_ipsec.md")
@@ -57,3 +58,7 @@ if __name__ == '__main__':
     get_data("data/3/novpn.pcapng", dir+"3_novpn.md")
 
     get_data("data/4/final.pcapng", dir+"4_final.md")
+
+
+if __name__ == '__main__':
+    print_all()

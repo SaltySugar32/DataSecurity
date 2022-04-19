@@ -1,4 +1,4 @@
-## 1. VPN NOT found
+## 1. VPN found
 ---
 ## 2. All Info
                                      src_ip                                      dst_ip bidirectional_packets bidirectional_bytes      application_name application_category_name
@@ -42,54 +42,54 @@
                               52.220.67.231                               192.168.43.11                     4                1378         TLS.AmazonAWS                     Cloud
                               52.220.67.231                               192.168.43.11                     4                1378         TLS.AmazonAWS                     Cloud
                               23.15.157.233                               192.168.43.11                    12                1718                   TLS                       Web
+                              40.78.234.177                               192.168.43.11                    49               26912             TLS.Azure                     Cloud
                               18.136.243.89                               192.168.43.11                     3                1277         TLS.AmazonAWS                     Cloud
+                             142.251.12.154                               192.168.43.11                     8                1055            TLS.Google                       Web
                              54.254.235.164                               192.168.43.11                     3                1284         TLS.AmazonAWS                     Cloud
+                              74.125.24.154                               192.168.43.11                     1                  66            TLS.Google                       Web
                              103.231.98.193                               192.168.43.11                     4                 248                   TLS                       Web
+                             142.251.10.132                               192.168.43.11                     1                  66            TLS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 108            DNS.Amazon                       Web
+                  fe80::e6c3:2aff:fe48:c998                                     ff02::1                     5                 590                ICMPV6                   Network
                               23.15.148.136                               192.168.43.11                     1                  66                   TLS                       Web
+                              35.241.45.217                               192.168.43.11                     1                  66       TLS.GoogleCloud                     Cloud
                               20.212.97.243                               192.168.43.11                    10               14082             TLS.Azure                     Cloud
+                              20.120.65.166                               192.168.43.11                     1                  54             TLS.Azure                     Cloud
                             104.254.148.198                               192.168.43.11                     3                1521                   TLS                       Web
+                            172.217.194.102                               192.168.43.11                    15                1419            TLS.Google                       Web
                               209.54.177.54                               192.168.43.11                     4                 228         TLS.AmazonAWS                     Cloud
+                                    8.8.4.4                               192.168.43.11                     1                 181         DNS.AmazonAWS                     Cloud
                                     8.8.4.4                               192.168.43.11                     1                 194            DNS.Google             Advertisement
+                                    8.8.4.4                               192.168.43.11                     1                 140            DNS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 206            DNS.Google             Advertisement
+     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2404:6800:4003:c03::5e                     5                 430                   TLS                       Web
                             172.217.194.132                               192.168.43.11                    10                6199            TLS.Google                       Web
+                                    8.8.4.4                               192.168.43.11                     1                 114            DNS.Google                       Web
                             172.217.194.103                               192.168.43.11                     6                 731            TLS.Google                       Web
+     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                        2606:4700::6812:e134                     5                6460                  QUIC                       Web
                                     8.8.4.4                               192.168.43.11                     1                 212            DNS.Google             Advertisement
+                             52.139.236.115                               192.168.43.11                    10                1786             TLS.Azure                     Cloud
                                     8.8.4.4                               192.168.43.11                     1                 232            DNS.Google             Advertisement
+                                    8.8.4.4                               192.168.43.11                     1                 192            DNS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 190            DNS.Google             Advertisement
+                                    8.8.4.4                               192.168.43.11                     1                  86            DNS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 109            DNS.Google                       Web
+                                    8.8.4.4                               192.168.43.11                     1                 237            DNS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 196            DNS.Google                       Web
+                                192.168.1.1                                   224.0.0.1                     1                  50                  IGMP                   Network
                                     8.8.4.4                               192.168.43.11                     1                 215            DNS.Google                       Web
                                     8.8.4.4                               192.168.43.11                     1                 154            DNS.Google                       Web
-                               13.229.20.65                               192.168.43.11                     3                1506         TLS.AmazonAWS                     Cloud
-                                    8.8.4.4                               192.168.43.11                     1                 213         DNS.AmazonAWS                     Cloud
-                               35.213.12.39                               192.168.43.11                     4                2444       TLS.GoogleCloud                     Cloud
-                              52.10.138.188                               192.168.43.11                     3                1285         TLS.AmazonAWS                     Cloud
-                             103.231.98.193                               192.168.43.11                     2                 140                   TLS                       Web
-                              40.78.234.177                               192.168.43.11                    49               26912             TLS.Azure                     Cloud
-                             142.251.12.154                               192.168.43.11                     8                1055            TLS.Google                       Web
-                              74.125.24.154                               192.168.43.11                     1                  66            TLS.Google                       Web
-                             142.251.10.132                               192.168.43.11                     1                  66            TLS.Google                       Web
-                  fe80::e6c3:2aff:fe48:c998                                     ff02::1                     5                 590                ICMPV6                   Network
-                              35.241.45.217                               192.168.43.11                     1                  66       TLS.GoogleCloud                     Cloud
-                              20.120.65.166                               192.168.43.11                     1                  54             TLS.Azure                     Cloud
-                            172.217.194.102                               192.168.43.11                    15                1419            TLS.Google                       Web
-                                    8.8.4.4                               192.168.43.11                     1                 181         DNS.AmazonAWS                     Cloud
-                                    8.8.4.4                               192.168.43.11                     1                 140            DNS.Google                       Web
-     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2404:6800:4003:c03::5e                     5                 430                   TLS                       Web
-                                    8.8.4.4                               192.168.43.11                     1                 114            DNS.Google                       Web
-     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                        2606:4700::6812:e134                     5                6460                  QUIC                       Web
-                             52.139.236.115                               192.168.43.11                    10                1786             TLS.Azure                     Cloud
-                                    8.8.4.4                               192.168.43.11                     1                 192            DNS.Google                       Web
-                                    8.8.4.4                               192.168.43.11                     1                  86            DNS.Google                       Web
-                                    8.8.4.4                               192.168.43.11                     1                 237            DNS.Google                       Web
-                                192.168.1.1                                   224.0.0.1                     1                  50                  IGMP                   Network
                                     8.8.4.4                               192.168.43.11                     1                 154            DNS.Google                       Web
                                51.79.176.84                               192.168.43.11                     3                 505                   TLS                       Web
+                               13.229.20.65                               192.168.43.11                     3                1506         TLS.AmazonAWS                     Cloud
                             172.217.194.157                               192.168.43.11                     8                 780            TLS.Google                       Web
+                                    8.8.4.4                               192.168.43.11                     1                 213         DNS.AmazonAWS                     Cloud
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2620:1ec:27::cafe:1830                    12                2227                   TLS                       Web
+                               35.213.12.39                               192.168.43.11                     4                2444       TLS.GoogleCloud                     Cloud
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2606:4700:20::681a:d85                     9                1200                   TLS                       Web
+                              52.10.138.188                               192.168.43.11                     3                1285         TLS.AmazonAWS                     Cloud
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe        2620:116:800e:21:b25f:f2c2:3600:d81a                     9                1867                   TLS                       Web
+                             103.231.98.193                               192.168.43.11                     2                 140                   TLS                       Web
                                     8.8.4.4                               192.168.43.11                     1                 220            DNS.Google                       Web
                                20.96.88.162                               192.168.43.11                    10                6494             TLS.Azure                     Cloud
                              35.227.238.208                               192.168.43.11                    11                5721       TLS.GoogleCloud                     Cloud
@@ -252,32 +252,32 @@
                              54.246.135.174                               192.168.43.11         TLS.AmazonAWS
                               52.220.67.231                               192.168.43.11         TLS.AmazonAWS
                               23.15.157.233                               192.168.43.11                   TLS
+                              40.78.234.177                               192.168.43.11             TLS.Azure
                               18.136.243.89                               192.168.43.11         TLS.AmazonAWS
+                             142.251.12.154                               192.168.43.11            TLS.Google
                              54.254.235.164                               192.168.43.11         TLS.AmazonAWS
+                              74.125.24.154                               192.168.43.11            TLS.Google
                              103.231.98.193                               192.168.43.11                   TLS
                                     8.8.4.4                               192.168.43.11            DNS.Amazon
+                  fe80::e6c3:2aff:fe48:c998                                     ff02::1                ICMPV6
                               23.15.148.136                               192.168.43.11                   TLS
+                              35.241.45.217                               192.168.43.11       TLS.GoogleCloud
                               20.212.97.243                               192.168.43.11             TLS.Azure
                             104.254.148.198                               192.168.43.11                   TLS
+                            172.217.194.102                               192.168.43.11            TLS.Google
                               209.54.177.54                               192.168.43.11         TLS.AmazonAWS
+     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2404:6800:4003:c03::5e                   TLS
                             172.217.194.132                               192.168.43.11            TLS.Google
                             172.217.194.103                               192.168.43.11            TLS.Google
-                               13.229.20.65                               192.168.43.11         TLS.AmazonAWS
-                               35.213.12.39                               192.168.43.11       TLS.GoogleCloud
-                              52.10.138.188                               192.168.43.11         TLS.AmazonAWS
-                              40.78.234.177                               192.168.43.11             TLS.Azure
-                             142.251.12.154                               192.168.43.11            TLS.Google
-                              74.125.24.154                               192.168.43.11            TLS.Google
-                  fe80::e6c3:2aff:fe48:c998                                     ff02::1                ICMPV6
-                              35.241.45.217                               192.168.43.11       TLS.GoogleCloud
-                            172.217.194.102                               192.168.43.11            TLS.Google
-     2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2404:6800:4003:c03::5e                   TLS
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                        2606:4700::6812:e134                  QUIC
                                 192.168.1.1                                   224.0.0.1                  IGMP
                                51.79.176.84                               192.168.43.11                   TLS
+                               13.229.20.65                               192.168.43.11         TLS.AmazonAWS
                             172.217.194.157                               192.168.43.11            TLS.Google
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2620:1ec:27::cafe:1830                   TLS
+                               35.213.12.39                               192.168.43.11       TLS.GoogleCloud
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe                      2606:4700:20::681a:d85                   TLS
+                              52.10.138.188                               192.168.43.11         TLS.AmazonAWS
      2a00:1fa3:573:45e3:3ca8:e662:9159:8cbe        2620:116:800e:21:b25f:f2c2:3600:d81a                   TLS
                                20.96.88.162                               192.168.43.11             TLS.Azure
                              35.227.238.208                               192.168.43.11       TLS.GoogleCloud
