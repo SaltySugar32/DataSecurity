@@ -31,7 +31,7 @@
 * Перейдём к пункту Linux.
 ![](images/img8.png)
 
-* Установка strrongswan - поддержку IKEv1 и IKEv2 протоколов.
+* Установка strongswan - поддержку IKEv1 и IKEv2 протоколов.
 ![](images/img11.png)
 
 * Проверяем наличие .p12 набора сертификатов и ключей клиента vpnclient.
