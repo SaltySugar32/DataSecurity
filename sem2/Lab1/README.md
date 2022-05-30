@@ -44,6 +44,8 @@ https://github.com/digininja/DVWA
 
 ![](images/Screenshot_4.png)
 
+![](images/Screenshot_6.png)
+
 ![](images/Screenshot_5.png)
 
 Запускаем билд
