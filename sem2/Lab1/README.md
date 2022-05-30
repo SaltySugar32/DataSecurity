@@ -40,6 +40,8 @@ Docker Compose
 
 Создаем айтем в дженкинсе
 
+https://github.com/digininja/DVWA
+
 ![](images/Screenshot_4.png)
 
 ![](images/Screenshot_5.png)
@@ -89,3 +91,53 @@ https://github.com/djadmin/vulnerable-app
 ---
 
 ## Snyk
+
+Установка как плагин для VS Code
+
+![](images/snyk1.png)
+
+Проверка первого проекта
+
+![](images/snyk2.png)
+
+![](images/snyk3.png)
+
+![](images/snyk4.png)
+
+![](images/snyk5.png)
+
+Второй проект
+
+![](images/snyk6.png)
+
+![](images/snyk7.png)
+
+![](images/snyk8.png)
+
+![](images/snyk9.png)
+
+![](images/snyk10.png)
+
+Третий проект
+
+![](images/snyk11.png)
+
+![](images/snyk12.png)
+
+![](images/snyk13.png)
+
+![](images/snyk14.png)
+
+![](images/snyk15.png)
+
+---
+
+## Сравнение
+
+Sonarqube
+
+![](images/sonar_15.png)
+
+Snyk
+
+![](images/snyk17.png)
